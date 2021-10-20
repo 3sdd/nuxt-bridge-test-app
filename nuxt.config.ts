@@ -1,4 +1,4 @@
-import {defineNuxtConfig} from "@nuxt/bridge"
+import { defineNuxtConfig } from '@nuxt/bridge';
 
 export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
@@ -53,5 +53,9 @@ export default defineNuxtConfig({
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  tailwindcss:{
+    viewer:false
   }
 })
